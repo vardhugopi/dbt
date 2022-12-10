@@ -2,7 +2,7 @@
   
     
 
-        create or replace transient table EDW.ANALYTICS.my_first_dbt_model  as
+        create or replace transient table EDW.dbt_vardhugopi.my_first_dbt_model  as
         (/*
     Welcome to your first dbt model!
     Did you know that you can also configure models directly within SQL files?
