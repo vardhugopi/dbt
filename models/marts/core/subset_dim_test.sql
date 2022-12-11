@@ -1,5 +1,3 @@
-/* materialized='table') }} */
--- where trim(VALUE:TYPE,'"') = 'SELLER'
 with subset_delta as (select * from {{ ref("account_subset_delta") }}),
 
 subset_dim_org as (select * from  {{ ref("account_subset") }}),

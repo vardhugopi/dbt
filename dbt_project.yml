@@ -39,7 +39,7 @@ models:
       +database: EDW
       +schema: EXTERNAL
       +materialized: table
-    core:
+    marts:
       +database: EDW
       +schema: ANALYTICS
       +materialized: table
