@@ -1,8 +1,8 @@
 /* materialized='table') }} */
 -- where trim(VALUE:TYPE,'"') = 'SELLER'
-with subset_test_data as (select * from {{ ref("account_subset_test") }}),
+with subset_delta as (select * from {{ ref("account_subset_delta") }}),
 
-subset_dim_org as (select * from ANALYTICS.SUBSET_DIM),
+subset_dim_org as (select * from  {{ ref("account_subset") }}),
 
 final as    (
     select
@@ -35,7 +35,7 @@ final as    (
     a.enabled_notices,
     a.created_at,
     hash(a.counterparty_id) as counterparty_key
-    from subset_test_data a
+    from subset_delta a
     left join subset_dim_org b on hash(a.code) = b.subset_key 
     )
 

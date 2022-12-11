@@ -6,3 +6,8 @@ sources:
     schema: EXTERNAL
     tables:
       - name: ACCOUNT_SUBSET
+  - name: lookup
+    database: EDW
+    schema: ANALYTICS
+    tables:
+      - name: SUBSET_DIM

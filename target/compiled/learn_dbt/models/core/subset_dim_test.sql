@@ -1,6 +1,6 @@
 /* materialized='table') }} */
 -- where trim(VALUE:TYPE,'"') = 'SELLER'
-with  __dbt__cte__account_subset_test as (
+with  __dbt__cte__account_subset_delta as (
  
 
 with subset_data as (
@@ -11,9 +11,19 @@ with subset_data as (
 
 select *
 from subset_data
-),subset_test_data as (select * from __dbt__cte__account_subset_test),
+),  __dbt__cte__account_subset as (
+ 
 
-subset_dim_org as (select * from ANALYTICS.SUBSET_DIM),
+with subset_data as (
+
+    SELECT * from EDW.ANALYTICS.SUBSET_DIM
+)
+
+select *
+from subset_data
+),subset_delta as (select * from __dbt__cte__account_subset_delta),
+
+subset_dim_org as (select * from  __dbt__cte__account_subset),
 
 final as    (
     select
@@ -46,7 +56,7 @@ final as    (
     a.enabled_notices,
     a.created_at,
     hash(a.counterparty_id) as counterparty_key
-    from subset_test_data a
+    from subset_delta a
     left join subset_dim_org b on hash(a.code) = b.subset_key 
     )
 
