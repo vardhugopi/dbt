@@ -15557,3 +15557,653 @@ select * from final
 2022-12-11 03:36:24.782897 (Thread-796): handling status request
 2022-12-11 03:36:24.783310 (Thread-796): 03:36:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85ceaa4dc0>]}
 2022-12-11 03:36:24.784443 (Thread-796): sending response (<Response 27051 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:48.101397 (Thread-797): 03:36:48  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-12-11 03:36:48.101643 (Thread-797): 03:36:48  Partial parsing enabled, no changes found, skipping parsing
+2022-12-11 03:36:48.107680 (Thread-797): 03:36:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f3250>]}
+2022-12-11 03:36:48.448396 (Thread-798): handling status request
+2022-12-11 03:36:48.448871 (Thread-798): 03:36:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4568370>]}
+2022-12-11 03:36:48.449339 (Thread-798): sending response (<Response 1249 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:48.454386 (Thread-799): handling status request
+2022-12-11 03:36:48.454668 (Thread-799): 03:36:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44e8b50>]}
+2022-12-11 03:36:48.455053 (Thread-799): sending response (<Response 1266 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:48.455764 (Thread-800): handling list request
+2022-12-11 03:36:48.456293 (Thread-800): 03:36:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85d133ed30>]}
+2022-12-11 03:36:48.481020 (Thread-800): 03:36:48  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85cec094f0>]}
+2022-12-11 03:36:48.481484 (Thread-800): 03:36:48  Found 3 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-12-11 03:36:48.481757 (Thread-800): 03:36:48  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85db34a370>]}
+2022-12-11 03:36:48.484244 (Thread-800): sending response (<Response 4427 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:52.584717 (Thread-801): handling ps request
+2022-12-11 03:36:52.585230 (Thread-801): 03:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85ceb40e80>]}
+2022-12-11 03:36:52.588421 (Thread-801): sending response (<Response 38862 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:52.666649 (Thread-802): handling ps request
+2022-12-11 03:36:52.667059 (Thread-802): 03:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f3580>]}
+2022-12-11 03:36:52.669793 (Thread-802): sending response (<Response 38862 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:52.686668 (Thread-803): handling run_sql request
+2022-12-11 03:36:52.686973 (Thread-803): 03:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44e84c0>]}
+2022-12-11 03:36:55.281295 (Thread-803): sending response (<Response 133 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:55.309154 (MainThread): 03:36:55  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '59e3e05b-a910-416f-9023-588fc411cc9b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4732965ca0>]}
+2022-12-11 03:36:55.309693 (MainThread): 03:36:55  Found 3 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-12-11 03:36:55.310324 (Thread-1): 03:36:55  Acquiring new snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:36:55.310464 (Thread-1): 03:36:55  Began compiling node rpc.learn_dbt.request
+2022-12-11 03:36:55.310554 (Thread-1): 03:36:55  Compiling rpc.learn_dbt.request
+2022-12-11 03:36:55.313428 (Thread-1): 03:36:55  Compiling model.learn_dbt.account_subset_delta
+2022-12-11 03:36:55.316274 (Thread-1): 03:36:55  Writing injected SQL for node "model.learn_dbt.account_subset_delta"
+2022-12-11 03:36:55.327538 (Thread-1): 03:36:55  Compiling model.learn_dbt.account_subset
+2022-12-11 03:36:55.330042 (Thread-1): 03:36:55  Writing injected SQL for node "model.learn_dbt.account_subset"
+2022-12-11 03:36:55.358044 (Thread-1): 03:36:55  finished collecting timing info
+2022-12-11 03:36:55.358250 (Thread-1): 03:36:55  Began executing node rpc.learn_dbt.request
+2022-12-11 03:36:55.360722 (Thread-1): 03:36:55  Using snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:36:55.360815 (Thread-1): 03:36:55  On rpc.learn_dbt.request: with  __dbt__cte__account_subset_delta as (
+ 
+
+with subset_data as (
+
+    SELECT trim(VALUE:id,'"') as ID,trim(VALUE:created_at,'"') as CREATED_AT,trim(VALUE:updated_at,'"') as UPDATED_AT,trim(VALUE:created_by,'"') as CREATED_BY,trim(VALUE:updated_by,'"') as UPDATED_BY,trim(VALUE:is_disabled,'"') as IS_DISABLED,trim(VALUE:subset_name,'"') as NAME,trim(VALUE:code,'"') as CODE,trim(VALUE:subset_type,'"') as TYPE,trim(VALUE:counterparty_id,'"') as COUNTERPARTY_ID,trim(VALUE:is_dealer,'"') as IS_DEALER,trim(VALUE:earn_out_minimum_fee,'"') as EARN_OUT_MINIMUM_FEE,trim(VALUE:settings,'"') as SETTINGS,trim(VALUE:soft_descriptors,'"') as SOFT_DESCRIPTORS,trim(VALUE:earn_out_plan,'"') as EARN_OUT_PLAN,VALUE:enabled_notices as ENABLED_NOTICES 
+    FROM EDW.EXTERNAL.ACCOUNT_SUBSET
+)
+
+select *
+from subset_data
+),  __dbt__cte__account_subset as (
+ 
+
+with subset_data as (
+
+    SELECT * from EDW.ANALYTICS.SUBSET_DIM
+)
+
+select *
+from subset_data
+),subset_delta as (select * from __dbt__cte__account_subset_delta),
+
+subset_dim_org as (select * from  __dbt__cte__account_subset),
+
+final as    (
+    select
+    a.id as partner_id,
+    a.name as name,
+    a.code as code,
+    a.type as type,
+    a.created_by as created_by,
+    a.updated_by as updated_by,
+    hash(a.code) as subset_key,
+    case
+        when b.subset_key is not null
+        then b.audit_created_by_user
+        else current_user()
+    end as audit_created_by_user,
+    case
+        when b.subset_key is not null then b.audit_created_dtm else current_timestamp()
+    end as audit_created_dtm,
+    current_user() as audit_modified_by_user,
+    current_timestamp() as audit_modified_dtm,
+    1 as src_sys_key,
+    a.updated_at,
+    a.is_disabled,
+    a.settings,
+    a.soft_descriptors,
+    a.counterparty_id,
+    a.is_dealer,
+    a.earn_out_minimum_fee,
+    a.earn_out_plan,
+    a.enabled_notices,
+    a.created_at,
+    hash(a.counterparty_id) as counterparty_key
+    from subset_delta a
+    left join subset_dim_org b on hash(a.code) = b.subset_key 
+    )
+
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-12-11 03:36:55.360894 (Thread-1): 03:36:55  Opening a new connection, currently in state init
+2022-12-11 03:36:55.527014 (Thread-804): handling ps request
+2022-12-11 03:36:55.527553 (Thread-804): 03:36:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f5730>]}
+2022-12-11 03:36:55.532474 (Thread-804): sending response (<Response 39335 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:55.533637 (Thread-805): handling ps request
+2022-12-11 03:36:55.534007 (Thread-805): 03:36:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85cea82550>]}
+2022-12-11 03:36:55.536492 (Thread-805): sending response (<Response 39335 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:55.821857 (Thread-806): handling status request
+2022-12-11 03:36:55.822297 (Thread-806): 03:36:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85cee6e640>]}
+2022-12-11 03:36:55.822801 (Thread-806): sending response (<Response 1266 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:55.872572 (Thread-807): handling poll request
+2022-12-11 03:36:55.872968 (Thread-807): 03:36:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f5820>]}
+2022-12-11 03:36:55.873632 (Thread-807): sending response (<Response 7113 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:55.979353 (Thread-808): handling poll request
+2022-12-11 03:36:55.979792 (Thread-808): 03:36:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f5ca0>]}
+2022-12-11 03:36:55.980424 (Thread-808): sending response (<Response 7114 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:56.216864 (Thread-809): handling status request
+2022-12-11 03:36:56.217304 (Thread-809): 03:36:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f56d0>]}
+2022-12-11 03:36:56.217755 (Thread-809): sending response (<Response 1266 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:56.755188 (Thread-1): 03:36:56  SQL status: SUCCESS 500 in 1.39 seconds
+2022-12-11 03:36:57.124082 (Thread-810): handling poll request
+2022-12-11 03:36:57.124510 (Thread-810): 03:36:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44f55b0>]}
+2022-12-11 03:36:57.125002 (Thread-810): sending response (<Response 671 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:57.180943 (Thread-1): 03:36:57  finished collecting timing info
+2022-12-11 03:36:57.181215 (Thread-1): 03:36:57  On rpc.learn_dbt.request: Close
+2022-12-11 03:36:57.785889 (Thread-811): handling ps request
+2022-12-11 03:36:57.786394 (Thread-811): 03:36:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a44eacd0>]}
+2022-12-11 03:36:57.789244 (Thread-811): sending response (<Response 39360 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:58.039773 (Thread-812): handling status request
+2022-12-11 03:36:58.040196 (Thread-812): 03:36:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a448b5e0>]}
+2022-12-11 03:36:58.040646 (Thread-812): sending response (<Response 1266 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:58.238052 (Thread-813): handling poll request
+2022-12-11 03:36:58.238507 (Thread-813): 03:36:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a448bb20>]}
+2022-12-11 03:36:58.248216 (Thread-813): sending response (<Response 446629 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:58.421319 (Thread-814): handling poll request
+2022-12-11 03:36:58.421770 (Thread-814): 03:36:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4484430>]}
+2022-12-11 03:36:58.431072 (Thread-814): sending response (<Response 439604 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:58.541807 (Thread-815): handling status request
+2022-12-11 03:36:58.542248 (Thread-815): 03:36:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4490340>]}
+2022-12-11 03:36:58.542717 (Thread-815): sending response (<Response 1266 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:36:58.591741 (Thread-816): handling ps request
+2022-12-11 03:36:58.592128 (Thread-816): 03:36:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4490820>]}
+2022-12-11 03:36:58.616200 (Thread-816): sending response (<Response 39360 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:39:03.582917 (Thread-817): handling status request
+2022-12-11 03:39:03.583871 (Thread-817): 03:39:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a447ceb0>]}
+2022-12-11 03:39:03.584345 (Thread-817): sending response (<Response 1266 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:39:12.823856 (Thread-818): 03:39:12  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:39:12.824509 (Thread-818): 03:39:12  Partial parsing: deleted source source.learn_dbt.raw.ACCOUNT_SUBSET
+2022-12-11 03:39:12.824694 (Thread-818): 03:39:12  Partial parsing: update schema file: learn_dbt://models/staging/stg_raw.yml
+2022-12-11 03:39:12.831308 (Thread-818): 03:39:12  1699: static parser successfully parsed marts/core/subset_dim_test.sql
+2022-12-11 03:39:12.834366 (Thread-818): 03:39:12  1699: static parser successfully parsed staging/account_subset_delta.sql
+2022-12-11 03:39:12.884585 (Thread-818): 03:39:12  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4275940>]}
+2022-12-11 03:39:13.015694 (Thread-819): handling status request
+2022-12-11 03:39:13.016109 (Thread-819): 03:39:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a42d1b50>]}
+2022-12-11 03:39:13.016599 (Thread-819): sending response (<Response 2244 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:39:42.057414 (Thread-820): handling status request
+2022-12-11 03:39:42.057837 (Thread-820): 03:39:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85d133ed30>]}
+2022-12-11 03:39:42.058363 (Thread-820): sending response (<Response 2244 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:39:44.640831 (Thread-821): 03:39:44  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:39:44.641389 (Thread-821): 03:39:44  Partial parsing: deleted source source.learn_dbt.lookup.SUBSET_DIM
+2022-12-11 03:39:44.641552 (Thread-821): 03:39:44  Partial parsing: update schema file: learn_dbt://models/staging/stg_raw.yml
+2022-12-11 03:39:44.647402 (Thread-821): 03:39:44  1699: static parser successfully parsed marts/core/subset_dim_test.sql
+2022-12-11 03:39:44.650386 (Thread-821): 03:39:44  1699: static parser successfully parsed staging/account_subset.sql
+2022-12-11 03:39:44.701138 (Thread-821): 03:39:44  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4174f10>]}
+2022-12-11 03:39:44.877667 (Thread-822): handling status request
+2022-12-11 03:39:44.878093 (Thread-822): 03:39:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a421c550>]}
+2022-12-11 03:39:44.878650 (Thread-822): sending response (<Response 2237 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:40:18.507991 (Thread-823): 03:40:18  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-12-11 03:40:18.508377 (Thread-823): 03:40:18  Partial parsing: added file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:40:18.513530 (Thread-823): 03:40:18  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:40:18.554827 (Thread-823): 03:40:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a40b3c70>]}
+2022-12-11 03:40:18.782254 (Thread-824): handling status request
+2022-12-11 03:40:18.782717 (Thread-824): 03:40:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a4171070>]}
+2022-12-11 03:40:18.783200 (Thread-824): sending response (<Response 1596 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:40:32.374386 (Thread-825): 03:40:32  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:40:32.374829 (Thread-825): 03:40:32  Partial parsing: updated file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:40:32.380928 (Thread-825): 03:40:32  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:40:32.424021 (Thread-825): 03:40:32  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b4e80>]}
+2022-12-11 03:40:32.589499 (Thread-826): handling status request
+2022-12-11 03:40:32.589919 (Thread-826): 03:40:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a408c7c0>]}
+2022-12-11 03:40:32.590454 (Thread-826): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:40:48.210367 (Thread-827): handling status request
+2022-12-11 03:40:48.210792 (Thread-827): 03:40:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a408c610>]}
+2022-12-11 03:40:48.211263 (Thread-827): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:43:22.756070 (Thread-828): 03:43:22  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:43:22.757273 (Thread-828): 03:43:22  Partial parsing: updated file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:43:22.762823 (Thread-828): 03:43:22  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:43:22.804645 (Thread-828): 03:43:22  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3f49d0>]}
+2022-12-11 03:43:22.987292 (Thread-829): handling status request
+2022-12-11 03:43:22.987724 (Thread-829): 03:43:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3c87c0>]}
+2022-12-11 03:43:22.988206 (Thread-829): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:44:51.452672 (Thread-830): handling status request
+2022-12-11 03:44:51.453670 (Thread-830): 03:44:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a408c6a0>]}
+2022-12-11 03:44:51.454157 (Thread-830): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:45:20.731550 (Thread-831): 03:45:20  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:45:20.731980 (Thread-831): 03:45:20  Partial parsing: updated file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:45:20.737584 (Thread-831): 03:45:20  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:45:20.781103 (Thread-831): 03:45:20  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c2f1f70>]}
+2022-12-11 03:45:20.943516 (Thread-832): handling status request
+2022-12-11 03:45:20.943939 (Thread-832): 03:45:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3c8280>]}
+2022-12-11 03:45:20.944417 (Thread-832): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:00.312051 (Thread-833): 03:47:00  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:47:00.312895 (Thread-833): 03:47:00  Partial parsing: updated file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:47:00.318431 (Thread-833): 03:47:00  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:47:00.358901 (Thread-833): 03:47:00  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3feb50>]}
+2022-12-11 03:47:00.532454 (Thread-834): handling status request
+2022-12-11 03:47:00.532879 (Thread-834): 03:47:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c321520>]}
+2022-12-11 03:47:00.533362 (Thread-834): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:14.043184 (Thread-835): 03:47:14  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:47:14.043643 (Thread-835): 03:47:14  Partial parsing: updated file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:47:14.050111 (Thread-835): 03:47:14  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:47:14.097159 (Thread-835): 03:47:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c22a4c0>]}
+2022-12-11 03:47:14.234076 (Thread-836): handling status request
+2022-12-11 03:47:14.234541 (Thread-836): 03:47:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4390a0>]}
+2022-12-11 03:47:14.235021 (Thread-836): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:15.643700 (Thread-837): handling ps request
+2022-12-11 03:47:15.644158 (Thread-837): 03:47:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c42c550>]}
+2022-12-11 03:47:15.647004 (Thread-837): sending response (<Response 39360 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:15.812359 (Thread-838): handling ps request
+2022-12-11 03:47:15.812774 (Thread-838): 03:47:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b4dc0>]}
+2022-12-11 03:47:15.815599 (Thread-838): sending response (<Response 39360 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:15.821122 (Thread-839): handling compile_sql request
+2022-12-11 03:47:15.821405 (Thread-839): 03:47:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85a41490a0>]}
+2022-12-11 03:47:18.400349 (Thread-839): sending response (<Response 133 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:18.429601 (MainThread): 03:47:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9d9c7064-83e3-4b2c-8e4f-077379e66d6c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd731db1c10>]}
+2022-12-11 03:47:18.430142 (MainThread): 03:47:18  Found 4 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-12-11 03:47:18.430754 (Thread-1): 03:47:18  Acquiring new snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:47:18.430890 (Thread-1): 03:47:18  Began compiling node rpc.learn_dbt.request
+2022-12-11 03:47:18.430978 (Thread-1): 03:47:18  Compiling rpc.learn_dbt.request
+2022-12-11 03:47:18.434668 (Thread-1): 03:47:18  finished collecting timing info
+2022-12-11 03:47:18.434807 (Thread-1): 03:47:18  Began executing node rpc.learn_dbt.request
+2022-12-11 03:47:18.434905 (Thread-1): 03:47:18  finished collecting timing info
+2022-12-11 03:47:18.693552 (Thread-840): handling ps request
+2022-12-11 03:47:18.694016 (Thread-840): 03:47:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c2d3550>]}
+2022-12-11 03:47:18.698519 (Thread-840): sending response (<Response 39856 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:18.703573 (Thread-841): handling ps request
+2022-12-11 03:47:18.703847 (Thread-841): 03:47:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b5ee0>]}
+2022-12-11 03:47:18.706258 (Thread-841): sending response (<Response 39856 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:18.980059 (Thread-842): handling status request
+2022-12-11 03:47:18.980490 (Thread-842): 03:47:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3c8d60>]}
+2022-12-11 03:47:18.980998 (Thread-842): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:19.042730 (Thread-843): handling poll request
+2022-12-11 03:47:19.043160 (Thread-843): 03:47:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3e61c0>]}
+2022-12-11 03:47:19.044231 (Thread-843): sending response (<Response 35545 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:19.135529 (Thread-844): handling poll request
+2022-12-11 03:47:19.135942 (Thread-844): 03:47:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b1e50>]}
+2022-12-11 03:47:19.136805 (Thread-844): sending response (<Response 35545 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:19.457351 (Thread-845): handling status request
+2022-12-11 03:47:19.457821 (Thread-845): 03:47:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3e6070>]}
+2022-12-11 03:47:19.458309 (Thread-845): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:27.483855 (Thread-846): handling ps request
+2022-12-11 03:47:27.484316 (Thread-846): 03:47:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3c80d0>]}
+2022-12-11 03:47:27.509915 (Thread-846): sending response (<Response 39856 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:27.613575 (Thread-847): handling ps request
+2022-12-11 03:47:27.613985 (Thread-847): 03:47:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3e93a0>]}
+2022-12-11 03:47:27.616853 (Thread-847): sending response (<Response 39856 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:27.629087 (Thread-848): handling run_sql request
+2022-12-11 03:47:27.629387 (Thread-848): 03:47:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b1b50>]}
+2022-12-11 03:47:30.201561 (Thread-848): sending response (<Response 133 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:30.232856 (MainThread): 03:47:30  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b4404a17-4c84-483e-aa1e-18c3aae5597c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ea54b0c70>]}
+2022-12-11 03:47:30.233423 (MainThread): 03:47:30  Found 4 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-12-11 03:47:30.234017 (Thread-1): 03:47:30  Acquiring new snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:47:30.234156 (Thread-1): 03:47:30  Began compiling node rpc.learn_dbt.request
+2022-12-11 03:47:30.234266 (Thread-1): 03:47:30  Compiling rpc.learn_dbt.request
+2022-12-11 03:47:30.237913 (Thread-1): 03:47:30  finished collecting timing info
+2022-12-11 03:47:30.238049 (Thread-1): 03:47:30  Began executing node rpc.learn_dbt.request
+2022-12-11 03:47:30.247328 (Thread-1): 03:47:30  Using snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:47:30.247424 (Thread-1): 03:47:30  On rpc.learn_dbt.request: with account_delta as (
+
+    SELECT trim(VALUE:id,'"') as ID,trim(VALUE:created_at,'"') as CREATED_AT,trim(VALUE:updated_at,'"') as UPDATED_AT,trim(VALUE:created_by,'"') as CREATED_BY,
+    trim(VALUE:updated_by,'"') as UPDATED_BY,trim(VALUE:is_disabled,'"') as IS_DISABLED,trim(VALUE:account_number,'"') as ACCOUNT_NUMBER,trim(VALUE:customer_name,'"') as CUSTOMER_NAME,
+    trim(VALUE:instrument_id,'"') as INSTRUMENT_ID,trim(VALUE:pool_id,'"') as POOL_ID,trim(VALUE:seller_id,'"') as SELLER_ID,trim(VALUE:administrator_id,'"') as ADMINISTRATOR_ID,
+    trim(VALUE:insurance_company_id,'"') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,'"') as CUSTOMER_ID,trim(VALUE:status,'"') as STATUS,trim(VALUE:status_change_date,'"') as STATUS_CHANGE_DATE,
+    trim(VALUE:calculation_rule_type,'"') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,'"') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,'"') as CONTRACT_FILE_NAME,
+    trim(VALUE:seller_reserve_code,'"') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,'"') as ADMIN_RESERVE_CODE,trim(VALUE:product,'"') as PRODUCT,trim(VALUE:first_due_date,'"') as FIRST_DUE_DATE,trim(VALUE:next_due_date,'"') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,'"') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,'"') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,'"') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,'"') as MATURITY_DATE,trim(VALUE:intent_date,'"') as INTENT_DATE,trim(VALUE:anniversary_date,'"') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,'"') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,'"') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,'"') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,'"') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,'"') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,'"') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,'"') as INGESTED_DATE,trim(VALUE:payment_frequency,'"') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,'"') as POLICY_TERM,trim(VALUE:policy_mileage,'"') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,'"') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,'"') as POLICY_PROGRAM,trim(VALUE:policy_number,'"') as POLICY_NUMBER,trim(VALUE:vehicle_vin,'"') as VEHICLE_VIN,trim(VALUE:vehicle_make,'"') as VEHICLE_MAKE,trim(VALUE:vehicle_model,'"') as VEHICLE_MODEL,trim(VALUE:vehicle_year,'"') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,'"') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,'"') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,'"') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,'"') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,'"') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,'"') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,'"') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,'"') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,'"') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,'"') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,'"') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,'"') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,'"') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,'"') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,'"') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,'"') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,'"') as INSTALLMENTS,trim(VALUE:installment_amount,'"') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,'"') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,'"') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,'"') as SELLER_COST,trim(VALUE:dealer_profit,'"') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,'"') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,'"') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,'"') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,'"') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,'"') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,'"') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,'"') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,'"') as RENEWAL_FEE,trim(VALUE:renewal_payhold,'"') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,'"') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,'"') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,'"') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,'"') as PAYMENTS_MADE,trim(VALUE:paid_amount,'"') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,'"') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,'"') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,'"') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,'"') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,'"') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,'"') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,'"') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,'"') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,'"') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,'"') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,'"') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,'"') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,'"') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,'"') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,'"') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,'"') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,'"') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,'"') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,'"') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,'"') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,'"') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,'"') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,'"') as IS_SELLER_COST_ADJUSTMENT_ENABLED,
+    trim(VALUE:is_auto_pay_suspended,'"') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,'"') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,'"') as CUSTOMER_STATE,
+    trim(VALUE:cancellation_hold_days,'"') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,'"') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,'"') as LAST_BILLED_DATE,
+    trim(VALUE:late_charge_grace_days,'"') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,'"') as DELINQUENCY_GRACE_DAYS,
+    trim(VALUE:billing_statement_days,'"') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,'"') as MAXIMUM_DUE_DATE_CHANGE_DAYS,
+    trim(VALUE:maximum_due_date_changes_per_year,'"') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,'"') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,
+    trim(VALUE:maximum_extensions_per_year, '"') as MAXIMUM_EXTENSIONS_PER_YEAR,
+    trim(VALUE:maximum_extensions_per_life,'"') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,'"') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,'"') as LATE_FEE_PERCENTAGE,
+    trim(VALUE:late_fee_calculation,'"') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,'"') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,'"') as IS_PRISTINE  from account
+    FROM EDW.EXTERNAL.ACCOUNT
+)
+
+select *
+from account_delta
+limit 500
+/* limit added automatically by dbt cloud */
+2022-12-11 03:47:30.247501 (Thread-1): 03:47:30  Opening a new connection, currently in state init
+2022-12-11 03:47:30.455076 (Thread-849): handling ps request
+2022-12-11 03:47:30.455603 (Thread-849): 03:47:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b4fa0>]}
+2022-12-11 03:47:30.460367 (Thread-849): sending response (<Response 40318 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:30.463801 (Thread-850): handling ps request
+2022-12-11 03:47:30.464102 (Thread-850): 03:47:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c25da30>]}
+2022-12-11 03:47:30.466651 (Thread-850): sending response (<Response 40319 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:30.701445 (Thread-851): handling status request
+2022-12-11 03:47:30.701860 (Thread-851): 03:47:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c439520>]}
+2022-12-11 03:47:30.702402 (Thread-851): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:30.759176 (Thread-852): handling poll request
+2022-12-11 03:47:30.759576 (Thread-852): 03:47:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4390a0>]}
+2022-12-11 03:47:30.760229 (Thread-852): sending response (<Response 11317 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:30.899118 (Thread-853): handling poll request
+2022-12-11 03:47:30.899519 (Thread-853): 03:47:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b5f10>]}
+2022-12-11 03:47:30.900116 (Thread-853): sending response (<Response 11317 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:31.113967 (Thread-1): 03:47:31  Snowflake adapter: Snowflake query id: 01a8e383-0000-dc94-0001-76f2005c5c0a
+2022-12-11 03:47:31.114194 (Thread-1): 03:47:31  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 17 at position 4 unexpected 'FROM'.
+2022-12-11 03:47:31.114418 (Thread-1): 03:47:31  finished collecting timing info
+2022-12-11 03:47:31.114621 (Thread-1): 03:47:31  On rpc.learn_dbt.request: Close
+2022-12-11 03:47:31.188768 (Thread-854): handling status request
+2022-12-11 03:47:31.189151 (Thread-854): 03:47:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b5070>]}
+2022-12-11 03:47:31.189600 (Thread-854): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:31.193128 (Thread-1): Got an exception: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 17 at position 4 unexpected 'FROM'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 234, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 70, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 804, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 276, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 331, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 210, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 17 at position 4 unexpected 'FROM'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 385, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 338, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 429, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 108, in execute
+    _, execute_result = self.adapter.execute(compiled_sql, fetch=True)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 278, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 407, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 458, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 78, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 253, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 17 at position 4 unexpected 'FROM'.
+2022-12-11 03:47:31.194174 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system.sql)\n  001003 (42000): SQL compilation error:\n  syntax error line 17 at position 4 unexpected 'FROM'.", 'raw_code': '{{ config(materialized=\'ephemeral\') }} \n\nwith account_delta as (\n\n    SELECT trim(VALUE:id,\'"\') as ID,trim(VALUE:created_at,\'"\') as CREATED_AT,trim(VALUE:updated_at,\'"\') as UPDATED_AT,trim(VALUE:created_by,\'"\') as CREATED_BY,\n    trim(VALUE:updated_by,\'"\') as UPDATED_BY,trim(VALUE:is_disabled,\'"\') as IS_DISABLED,trim(VALUE:account_number,\'"\') as ACCOUNT_NUMBER,trim(VALUE:customer_name,\'"\') as CUSTOMER_NAME,\n    trim(VALUE:instrument_id,\'"\') as INSTRUMENT_ID,trim(VALUE:pool_id,\'"\') as POOL_ID,trim(VALUE:seller_id,\'"\') as SELLER_ID,trim(VALUE:administrator_id,\'"\') as ADMINISTRATOR_ID,\n    trim(VALUE:insurance_company_id,\'"\') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,\'"\') as CUSTOMER_ID,trim(VALUE:status,\'"\') as STATUS,trim(VALUE:status_change_date,\'"\') as STATUS_CHANGE_DATE,\n    trim(VALUE:calculation_rule_type,\'"\') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,\'"\') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,\'"\') as CONTRACT_FILE_NAME,\n    trim(VALUE:seller_reserve_code,\'"\') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,\'"\') as ADMIN_RESERVE_CODE,trim(VALUE:product,\'"\') as PRODUCT,trim(VALUE:first_due_date,\'"\') as FIRST_DUE_DATE,trim(VALUE:next_due_date,\'"\') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,\'"\') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,\'"\') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,\'"\') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,\'"\') as MATURITY_DATE,trim(VALUE:intent_date,\'"\') as INTENT_DATE,trim(VALUE:anniversary_date,\'"\') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,\'"\') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,\'"\') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,\'"\') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,\'"\') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,\'"\') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,\'"\') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,\'"\') as INGESTED_DATE,trim(VALUE:payment_frequency,\'"\') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,\'"\') as POLICY_TERM,trim(VALUE:policy_mileage,\'"\') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,\'"\') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,\'"\') as POLICY_PROGRAM,trim(VALUE:policy_number,\'"\') as POLICY_NUMBER,trim(VALUE:vehicle_vin,\'"\') as VEHICLE_VIN,trim(VALUE:vehicle_make,\'"\') as VEHICLE_MAKE,trim(VALUE:vehicle_model,\'"\') as VEHICLE_MODEL,trim(VALUE:vehicle_year,\'"\') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,\'"\') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,\'"\') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,\'"\') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,\'"\') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,\'"\') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,\'"\') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,\'"\') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,\'"\') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,\'"\') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,\'"\') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,\'"\') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,\'"\') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,\'"\') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,\'"\') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,\'"\') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,\'"\') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,\'"\') as INSTALLMENTS,trim(VALUE:installment_amount,\'"\') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,\'"\') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,\'"\') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,\'"\') as SELLER_COST,trim(VALUE:dealer_profit,\'"\') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,\'"\') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,\'"\') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,\'"\') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,\'"\') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,\'"\') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,\'"\') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,\'"\') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,\'"\') as RENEWAL_FEE,trim(VALUE:renewal_payhold,\'"\') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,\'"\') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,\'"\') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,\'"\') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,\'"\') as PAYMENTS_MADE,trim(VALUE:paid_amount,\'"\') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,\'"\') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,\'"\') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,\'"\') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,\'"\') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,\'"\') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,\'"\') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,\'"\') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,\'"\') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,\'"\') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,\'"\') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,\'"\') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,\'"\') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,\'"\') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,\'"\') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,\'"\') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,\'"\') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,\'"\') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,\'"\') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,\'"\') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,\'"\') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,\'"\') as IS_SELLER_COST_ADJUSTMENT_ENABLED,\n    trim(VALUE:is_auto_pay_suspended,\'"\') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,\'"\') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,\'"\') as CUSTOMER_STATE,\n    trim(VALUE:cancellation_hold_days,\'"\') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,\'"\') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,\'"\') as LAST_BILLED_DATE,\n    trim(VALUE:late_charge_grace_days,\'"\') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,\'"\') as DELINQUENCY_GRACE_DAYS,\n    trim(VALUE:billing_statement_days,\'"\') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,\'"\') as MAXIMUM_DUE_DATE_CHANGE_DAYS,\n    trim(VALUE:maximum_due_date_changes_per_year,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,\n    trim(VALUE:maximum_extensions_per_year, \'"\') as MAXIMUM_EXTENSIONS_PER_YEAR,\n    trim(VALUE:maximum_extensions_per_life,\'"\') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,\'"\') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,\'"\') as LATE_FEE_PERCENTAGE,\n    trim(VALUE:late_fee_calculation,\'"\') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,\'"\') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,\'"\') as IS_PRISTINE  from account\n    FROM {{ source(\'raw\',\'ACCOUNT\')}}\n)\n\nselect *\nfrom account_delta\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_code': ' \n\nwith account_delta as (\n\n    SELECT trim(VALUE:id,\'"\') as ID,trim(VALUE:created_at,\'"\') as CREATED_AT,trim(VALUE:updated_at,\'"\') as UPDATED_AT,trim(VALUE:created_by,\'"\') as CREATED_BY,\n    trim(VALUE:updated_by,\'"\') as UPDATED_BY,trim(VALUE:is_disabled,\'"\') as IS_DISABLED,trim(VALUE:account_number,\'"\') as ACCOUNT_NUMBER,trim(VALUE:customer_name,\'"\') as CUSTOMER_NAME,\n    trim(VALUE:instrument_id,\'"\') as INSTRUMENT_ID,trim(VALUE:pool_id,\'"\') as POOL_ID,trim(VALUE:seller_id,\'"\') as SELLER_ID,trim(VALUE:administrator_id,\'"\') as ADMINISTRATOR_ID,\n    trim(VALUE:insurance_company_id,\'"\') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,\'"\') as CUSTOMER_ID,trim(VALUE:status,\'"\') as STATUS,trim(VALUE:status_change_date,\'"\') as STATUS_CHANGE_DATE,\n    trim(VALUE:calculation_rule_type,\'"\') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,\'"\') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,\'"\') as CONTRACT_FILE_NAME,\n    trim(VALUE:seller_reserve_code,\'"\') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,\'"\') as ADMIN_RESERVE_CODE,trim(VALUE:product,\'"\') as PRODUCT,trim(VALUE:first_due_date,\'"\') as FIRST_DUE_DATE,trim(VALUE:next_due_date,\'"\') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,\'"\') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,\'"\') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,\'"\') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,\'"\') as MATURITY_DATE,trim(VALUE:intent_date,\'"\') as INTENT_DATE,trim(VALUE:anniversary_date,\'"\') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,\'"\') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,\'"\') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,\'"\') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,\'"\') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,\'"\') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,\'"\') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,\'"\') as INGESTED_DATE,trim(VALUE:payment_frequency,\'"\') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,\'"\') as POLICY_TERM,trim(VALUE:policy_mileage,\'"\') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,\'"\') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,\'"\') as POLICY_PROGRAM,trim(VALUE:policy_number,\'"\') as POLICY_NUMBER,trim(VALUE:vehicle_vin,\'"\') as VEHICLE_VIN,trim(VALUE:vehicle_make,\'"\') as VEHICLE_MAKE,trim(VALUE:vehicle_model,\'"\') as VEHICLE_MODEL,trim(VALUE:vehicle_year,\'"\') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,\'"\') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,\'"\') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,\'"\') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,\'"\') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,\'"\') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,\'"\') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,\'"\') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,\'"\') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,\'"\') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,\'"\') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,\'"\') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,\'"\') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,\'"\') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,\'"\') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,\'"\') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,\'"\') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,\'"\') as INSTALLMENTS,trim(VALUE:installment_amount,\'"\') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,\'"\') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,\'"\') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,\'"\') as SELLER_COST,trim(VALUE:dealer_profit,\'"\') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,\'"\') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,\'"\') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,\'"\') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,\'"\') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,\'"\') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,\'"\') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,\'"\') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,\'"\') as RENEWAL_FEE,trim(VALUE:renewal_payhold,\'"\') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,\'"\') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,\'"\') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,\'"\') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,\'"\') as PAYMENTS_MADE,trim(VALUE:paid_amount,\'"\') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,\'"\') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,\'"\') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,\'"\') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,\'"\') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,\'"\') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,\'"\') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,\'"\') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,\'"\') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,\'"\') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,\'"\') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,\'"\') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,\'"\') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,\'"\') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,\'"\') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,\'"\') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,\'"\') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,\'"\') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,\'"\') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,\'"\') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,\'"\') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,\'"\') as IS_SELLER_COST_ADJUSTMENT_ENABLED,\n    trim(VALUE:is_auto_pay_suspended,\'"\') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,\'"\') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,\'"\') as CUSTOMER_STATE,\n    trim(VALUE:cancellation_hold_days,\'"\') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,\'"\') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,\'"\') as LAST_BILLED_DATE,\n    trim(VALUE:late_charge_grace_days,\'"\') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,\'"\') as DELINQUENCY_GRACE_DAYS,\n    trim(VALUE:billing_statement_days,\'"\') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,\'"\') as MAXIMUM_DUE_DATE_CHANGE_DAYS,\n    trim(VALUE:maximum_due_date_changes_per_year,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,\n    trim(VALUE:maximum_extensions_per_year, \'"\') as MAXIMUM_EXTENSIONS_PER_YEAR,\n    trim(VALUE:maximum_extensions_per_life,\'"\') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,\'"\') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,\'"\') as LATE_FEE_PERCENTAGE,\n    trim(VALUE:late_fee_calculation,\'"\') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,\'"\') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,\'"\') as IS_PRISTINE  from account\n    FROM EDW.EXTERNAL.ACCOUNT\n)\n\nselect *\nfrom account_delta\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 148, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 68, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system.sql)\n  001003 (42000): SQL compilation error:\n  syntax error line 17 at position 4 unexpected 'FROM'.", 'raw_code': '{{ config(materialized=\'ephemeral\') }} \n\nwith account_delta as (\n\n    SELECT trim(VALUE:id,\'"\') as ID,trim(VALUE:created_at,\'"\') as CREATED_AT,trim(VALUE:updated_at,\'"\') as UPDATED_AT,trim(VALUE:created_by,\'"\') as CREATED_BY,\n    trim(VALUE:updated_by,\'"\') as UPDATED_BY,trim(VALUE:is_disabled,\'"\') as IS_DISABLED,trim(VALUE:account_number,\'"\') as ACCOUNT_NUMBER,trim(VALUE:customer_name,\'"\') as CUSTOMER_NAME,\n    trim(VALUE:instrument_id,\'"\') as INSTRUMENT_ID,trim(VALUE:pool_id,\'"\') as POOL_ID,trim(VALUE:seller_id,\'"\') as SELLER_ID,trim(VALUE:administrator_id,\'"\') as ADMINISTRATOR_ID,\n    trim(VALUE:insurance_company_id,\'"\') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,\'"\') as CUSTOMER_ID,trim(VALUE:status,\'"\') as STATUS,trim(VALUE:status_change_date,\'"\') as STATUS_CHANGE_DATE,\n    trim(VALUE:calculation_rule_type,\'"\') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,\'"\') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,\'"\') as CONTRACT_FILE_NAME,\n    trim(VALUE:seller_reserve_code,\'"\') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,\'"\') as ADMIN_RESERVE_CODE,trim(VALUE:product,\'"\') as PRODUCT,trim(VALUE:first_due_date,\'"\') as FIRST_DUE_DATE,trim(VALUE:next_due_date,\'"\') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,\'"\') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,\'"\') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,\'"\') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,\'"\') as MATURITY_DATE,trim(VALUE:intent_date,\'"\') as INTENT_DATE,trim(VALUE:anniversary_date,\'"\') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,\'"\') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,\'"\') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,\'"\') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,\'"\') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,\'"\') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,\'"\') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,\'"\') as INGESTED_DATE,trim(VALUE:payment_frequency,\'"\') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,\'"\') as POLICY_TERM,trim(VALUE:policy_mileage,\'"\') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,\'"\') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,\'"\') as POLICY_PROGRAM,trim(VALUE:policy_number,\'"\') as POLICY_NUMBER,trim(VALUE:vehicle_vin,\'"\') as VEHICLE_VIN,trim(VALUE:vehicle_make,\'"\') as VEHICLE_MAKE,trim(VALUE:vehicle_model,\'"\') as VEHICLE_MODEL,trim(VALUE:vehicle_year,\'"\') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,\'"\') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,\'"\') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,\'"\') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,\'"\') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,\'"\') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,\'"\') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,\'"\') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,\'"\') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,\'"\') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,\'"\') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,\'"\') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,\'"\') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,\'"\') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,\'"\') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,\'"\') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,\'"\') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,\'"\') as INSTALLMENTS,trim(VALUE:installment_amount,\'"\') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,\'"\') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,\'"\') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,\'"\') as SELLER_COST,trim(VALUE:dealer_profit,\'"\') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,\'"\') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,\'"\') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,\'"\') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,\'"\') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,\'"\') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,\'"\') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,\'"\') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,\'"\') as RENEWAL_FEE,trim(VALUE:renewal_payhold,\'"\') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,\'"\') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,\'"\') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,\'"\') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,\'"\') as PAYMENTS_MADE,trim(VALUE:paid_amount,\'"\') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,\'"\') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,\'"\') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,\'"\') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,\'"\') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,\'"\') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,\'"\') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,\'"\') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,\'"\') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,\'"\') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,\'"\') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,\'"\') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,\'"\') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,\'"\') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,\'"\') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,\'"\') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,\'"\') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,\'"\') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,\'"\') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,\'"\') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,\'"\') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,\'"\') as IS_SELLER_COST_ADJUSTMENT_ENABLED,\n    trim(VALUE:is_auto_pay_suspended,\'"\') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,\'"\') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,\'"\') as CUSTOMER_STATE,\n    trim(VALUE:cancellation_hold_days,\'"\') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,\'"\') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,\'"\') as LAST_BILLED_DATE,\n    trim(VALUE:late_charge_grace_days,\'"\') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,\'"\') as DELINQUENCY_GRACE_DAYS,\n    trim(VALUE:billing_statement_days,\'"\') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,\'"\') as MAXIMUM_DUE_DATE_CHANGE_DAYS,\n    trim(VALUE:maximum_due_date_changes_per_year,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,\n    trim(VALUE:maximum_extensions_per_year, \'"\') as MAXIMUM_EXTENSIONS_PER_YEAR,\n    trim(VALUE:maximum_extensions_per_life,\'"\') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,\'"\') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,\'"\') as LATE_FEE_PERCENTAGE,\n    trim(VALUE:late_fee_calculation,\'"\') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,\'"\') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,\'"\') as IS_PRISTINE  from account\n    FROM {{ source(\'raw\',\'ACCOUNT\')}}\n)\n\nselect *\nfrom account_delta\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_code': ' \n\nwith account_delta as (\n\n    SELECT trim(VALUE:id,\'"\') as ID,trim(VALUE:created_at,\'"\') as CREATED_AT,trim(VALUE:updated_at,\'"\') as UPDATED_AT,trim(VALUE:created_by,\'"\') as CREATED_BY,\n    trim(VALUE:updated_by,\'"\') as UPDATED_BY,trim(VALUE:is_disabled,\'"\') as IS_DISABLED,trim(VALUE:account_number,\'"\') as ACCOUNT_NUMBER,trim(VALUE:customer_name,\'"\') as CUSTOMER_NAME,\n    trim(VALUE:instrument_id,\'"\') as INSTRUMENT_ID,trim(VALUE:pool_id,\'"\') as POOL_ID,trim(VALUE:seller_id,\'"\') as SELLER_ID,trim(VALUE:administrator_id,\'"\') as ADMINISTRATOR_ID,\n    trim(VALUE:insurance_company_id,\'"\') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,\'"\') as CUSTOMER_ID,trim(VALUE:status,\'"\') as STATUS,trim(VALUE:status_change_date,\'"\') as STATUS_CHANGE_DATE,\n    trim(VALUE:calculation_rule_type,\'"\') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,\'"\') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,\'"\') as CONTRACT_FILE_NAME,\n    trim(VALUE:seller_reserve_code,\'"\') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,\'"\') as ADMIN_RESERVE_CODE,trim(VALUE:product,\'"\') as PRODUCT,trim(VALUE:first_due_date,\'"\') as FIRST_DUE_DATE,trim(VALUE:next_due_date,\'"\') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,\'"\') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,\'"\') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,\'"\') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,\'"\') as MATURITY_DATE,trim(VALUE:intent_date,\'"\') as INTENT_DATE,trim(VALUE:anniversary_date,\'"\') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,\'"\') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,\'"\') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,\'"\') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,\'"\') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,\'"\') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,\'"\') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,\'"\') as INGESTED_DATE,trim(VALUE:payment_frequency,\'"\') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,\'"\') as POLICY_TERM,trim(VALUE:policy_mileage,\'"\') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,\'"\') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,\'"\') as POLICY_PROGRAM,trim(VALUE:policy_number,\'"\') as POLICY_NUMBER,trim(VALUE:vehicle_vin,\'"\') as VEHICLE_VIN,trim(VALUE:vehicle_make,\'"\') as VEHICLE_MAKE,trim(VALUE:vehicle_model,\'"\') as VEHICLE_MODEL,trim(VALUE:vehicle_year,\'"\') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,\'"\') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,\'"\') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,\'"\') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,\'"\') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,\'"\') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,\'"\') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,\'"\') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,\'"\') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,\'"\') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,\'"\') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,\'"\') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,\'"\') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,\'"\') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,\'"\') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,\'"\') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,\'"\') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,\'"\') as INSTALLMENTS,trim(VALUE:installment_amount,\'"\') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,\'"\') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,\'"\') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,\'"\') as SELLER_COST,trim(VALUE:dealer_profit,\'"\') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,\'"\') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,\'"\') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,\'"\') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,\'"\') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,\'"\') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,\'"\') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,\'"\') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,\'"\') as RENEWAL_FEE,trim(VALUE:renewal_payhold,\'"\') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,\'"\') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,\'"\') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,\'"\') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,\'"\') as PAYMENTS_MADE,trim(VALUE:paid_amount,\'"\') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,\'"\') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,\'"\') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,\'"\') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,\'"\') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,\'"\') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,\'"\') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,\'"\') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,\'"\') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,\'"\') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,\'"\') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,\'"\') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,\'"\') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,\'"\') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,\'"\') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,\'"\') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,\'"\') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,\'"\') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,\'"\') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,\'"\') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,\'"\') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,\'"\') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,\'"\') as IS_SELLER_COST_ADJUSTMENT_ENABLED,\n    trim(VALUE:is_auto_pay_suspended,\'"\') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,\'"\') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,\'"\') as CUSTOMER_STATE,\n    trim(VALUE:cancellation_hold_days,\'"\') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,\'"\') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,\'"\') as LAST_BILLED_DATE,\n    trim(VALUE:late_charge_grace_days,\'"\') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,\'"\') as DELINQUENCY_GRACE_DAYS,\n    trim(VALUE:billing_statement_days,\'"\') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,\'"\') as MAXIMUM_DUE_DATE_CHANGE_DAYS,\n    trim(VALUE:maximum_due_date_changes_per_year,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,\'"\') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,\n    trim(VALUE:maximum_extensions_per_year, \'"\') as MAXIMUM_EXTENSIONS_PER_YEAR,\n    trim(VALUE:maximum_extensions_per_life,\'"\') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,\'"\') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,\'"\') as LATE_FEE_PERCENTAGE,\n    trim(VALUE:late_fee_calculation,\'"\') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,\'"\') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,\'"\') as IS_PRISTINE  from account\n    FROM EDW.EXTERNAL.ACCOUNT\n)\n\nselect *\nfrom account_delta\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-12-11 03:47:32.014992 (Thread-855): handling poll request
+2022-12-11 03:47:32.015409 (Thread-855): 03:47:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c4b5fa0>]}
+2022-12-11 03:47:32.016245 (Thread-855): sending response (<Response 65220 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:32.787032 (Thread-856): handling ps request
+2022-12-11 03:47:32.787455 (Thread-856): 03:47:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c264e20>]}
+2022-12-11 03:47:32.790552 (Thread-856): sending response (<Response 40342 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:33.196881 (Thread-857): handling status request
+2022-12-11 03:47:33.197284 (Thread-857): 03:47:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3fea00>]}
+2022-12-11 03:47:33.197736 (Thread-857): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:33.317698 (Thread-858): handling poll request
+2022-12-11 03:47:33.318106 (Thread-858): 03:47:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c3fed00>]}
+2022-12-11 03:47:33.318931 (Thread-858): sending response (<Response 65220 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:33.598163 (Thread-859): handling status request
+2022-12-11 03:47:33.598602 (Thread-859): 03:47:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c264d00>]}
+2022-12-11 03:47:33.599071 (Thread-859): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:51.259926 (Thread-860): 03:47:51  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-12-11 03:47:51.260418 (Thread-860): 03:47:51  Partial parsing: updated file: learn_dbt://models/staging/account_delta.sql
+2022-12-11 03:47:51.267294 (Thread-860): 03:47:51  1699: static parser successfully parsed staging/account_delta.sql
+2022-12-11 03:47:51.312190 (Thread-860): 03:47:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c1754f0>]}
+2022-12-11 03:47:51.429515 (Thread-861): handling status request
+2022-12-11 03:47:51.429925 (Thread-861): 03:47:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c439460>]}
+2022-12-11 03:47:51.430445 (Thread-861): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:54.786059 (Thread-862): handling ps request
+2022-12-11 03:47:54.786528 (Thread-862): 03:47:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c144eb0>]}
+2022-12-11 03:47:54.789316 (Thread-862): sending response (<Response 40342 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:54.795285 (Thread-863): handling run_sql request
+2022-12-11 03:47:54.795577 (Thread-863): 03:47:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c439130>]}
+2022-12-11 03:47:57.396960 (Thread-863): sending response (<Response 133 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:57.426646 (MainThread): 03:47:57  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9c28cc23-cf0a-47a4-a73b-b7aaee161753', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36954efc40>]}
+2022-12-11 03:47:57.427195 (MainThread): 03:47:57  Found 4 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-12-11 03:47:57.427789 (Thread-1): 03:47:57  Acquiring new snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:47:57.427938 (Thread-1): 03:47:57  Began compiling node rpc.learn_dbt.request
+2022-12-11 03:47:57.428031 (Thread-1): 03:47:57  Compiling rpc.learn_dbt.request
+2022-12-11 03:47:57.431716 (Thread-1): 03:47:57  finished collecting timing info
+2022-12-11 03:47:57.431868 (Thread-1): 03:47:57  Began executing node rpc.learn_dbt.request
+2022-12-11 03:47:57.440974 (Thread-1): 03:47:57  Using snowflake connection "rpc.learn_dbt.request"
+2022-12-11 03:47:57.441070 (Thread-1): 03:47:57  On rpc.learn_dbt.request: with account_delta as (
+
+    SELECT trim(VALUE:id,'"') as ID,trim(VALUE:created_at,'"') as CREATED_AT,trim(VALUE:updated_at,'"') as UPDATED_AT,trim(VALUE:created_by,'"') as CREATED_BY,
+    trim(VALUE:updated_by,'"') as UPDATED_BY,trim(VALUE:is_disabled,'"') as IS_DISABLED,trim(VALUE:account_number,'"') as ACCOUNT_NUMBER,trim(VALUE:customer_name,'"') as CUSTOMER_NAME,
+    trim(VALUE:instrument_id,'"') as INSTRUMENT_ID,trim(VALUE:pool_id,'"') as POOL_ID,trim(VALUE:seller_id,'"') as SELLER_ID,trim(VALUE:administrator_id,'"') as ADMINISTRATOR_ID,
+    trim(VALUE:insurance_company_id,'"') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,'"') as CUSTOMER_ID,trim(VALUE:status,'"') as STATUS,trim(VALUE:status_change_date,'"') as STATUS_CHANGE_DATE,
+    trim(VALUE:calculation_rule_type,'"') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,'"') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,'"') as CONTRACT_FILE_NAME,
+    trim(VALUE:seller_reserve_code,'"') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,'"') as ADMIN_RESERVE_CODE,trim(VALUE:product,'"') as PRODUCT,trim(VALUE:first_due_date,'"') as FIRST_DUE_DATE,trim(VALUE:next_due_date,'"') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,'"') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,'"') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,'"') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,'"') as MATURITY_DATE,trim(VALUE:intent_date,'"') as INTENT_DATE,trim(VALUE:anniversary_date,'"') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,'"') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,'"') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,'"') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,'"') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,'"') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,'"') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,'"') as INGESTED_DATE,trim(VALUE:payment_frequency,'"') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,'"') as POLICY_TERM,trim(VALUE:policy_mileage,'"') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,'"') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,'"') as POLICY_PROGRAM,trim(VALUE:policy_number,'"') as POLICY_NUMBER,trim(VALUE:vehicle_vin,'"') as VEHICLE_VIN,trim(VALUE:vehicle_make,'"') as VEHICLE_MAKE,trim(VALUE:vehicle_model,'"') as VEHICLE_MODEL,trim(VALUE:vehicle_year,'"') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,'"') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,'"') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,'"') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,'"') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,'"') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,'"') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,'"') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,'"') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,'"') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,'"') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,'"') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,'"') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,'"') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,'"') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,'"') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,'"') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,'"') as INSTALLMENTS,trim(VALUE:installment_amount,'"') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,'"') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,'"') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,'"') as SELLER_COST,trim(VALUE:dealer_profit,'"') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,'"') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,'"') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,'"') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,'"') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,'"') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,'"') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,'"') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,'"') as RENEWAL_FEE,trim(VALUE:renewal_payhold,'"') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,'"') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,'"') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,'"') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,'"') as PAYMENTS_MADE,trim(VALUE:paid_amount,'"') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,'"') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,'"') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,'"') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,'"') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,'"') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,'"') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,'"') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,'"') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,'"') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,'"') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,'"') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,'"') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,'"') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,'"') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,'"') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,'"') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,'"') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,'"') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,'"') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,'"') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,'"') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,'"') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,'"') as IS_SELLER_COST_ADJUSTMENT_ENABLED,
+    trim(VALUE:is_auto_pay_suspended,'"') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,'"') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,'"') as CUSTOMER_STATE,
+    trim(VALUE:cancellation_hold_days,'"') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,'"') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,'"') as LAST_BILLED_DATE,
+    trim(VALUE:late_charge_grace_days,'"') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,'"') as DELINQUENCY_GRACE_DAYS,
+    trim(VALUE:billing_statement_days,'"') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,'"') as MAXIMUM_DUE_DATE_CHANGE_DAYS,
+    trim(VALUE:maximum_due_date_changes_per_year,'"') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,'"') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,
+    trim(VALUE:maximum_extensions_per_year, '"') as MAXIMUM_EXTENSIONS_PER_YEAR,
+    trim(VALUE:maximum_extensions_per_life,'"') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,'"') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,'"') as LATE_FEE_PERCENTAGE,
+    trim(VALUE:late_fee_calculation,'"') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,'"') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,'"') as IS_PRISTINE
+    FROM EDW.EXTERNAL.ACCOUNT
+)
+
+select *
+from account_delta
+limit 500
+/* limit added automatically by dbt cloud */
+2022-12-11 03:47:57.441146 (Thread-1): 03:47:57  Opening a new connection, currently in state init
+2022-12-11 03:47:57.724038 (Thread-864): handling ps request
+2022-12-11 03:47:57.724535 (Thread-864): 03:47:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c229eb0>]}
+2022-12-11 03:47:57.729101 (Thread-864): sending response (<Response 40805 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:57.733071 (Thread-865): handling ps request
+2022-12-11 03:47:57.733355 (Thread-865): 03:47:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c144910>]}
+2022-12-11 03:47:57.735895 (Thread-865): sending response (<Response 40805 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:58.010493 (Thread-866): handling status request
+2022-12-11 03:47:58.010903 (Thread-866): 03:47:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c22a5e0>]}
+2022-12-11 03:47:58.011399 (Thread-866): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:58.087873 (Thread-867): handling poll request
+2022-12-11 03:47:58.088288 (Thread-867): 03:47:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c22a550>]}
+2022-12-11 03:47:58.088971 (Thread-867): sending response (<Response 11303 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:58.165375 (Thread-868): handling poll request
+2022-12-11 03:47:58.165784 (Thread-868): 03:47:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c175be0>]}
+2022-12-11 03:47:58.166440 (Thread-868): sending response (<Response 11303 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:58.418611 (Thread-869): handling status request
+2022-12-11 03:47:58.419058 (Thread-869): 03:47:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c175910>]}
+2022-12-11 03:47:58.419562 (Thread-869): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:59.337008 (Thread-870): handling poll request
+2022-12-11 03:47:59.337420 (Thread-870): 03:47:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c175760>]}
+2022-12-11 03:47:59.337897 (Thread-870): sending response (<Response 372 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:47:59.989595 (Thread-871): handling ps request
+2022-12-11 03:47:59.990011 (Thread-871): 03:47:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c175fd0>]}
+2022-12-11 03:47:59.993391 (Thread-871): sending response (<Response 40805 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:00.067976 (Thread-1): 03:48:00  SQL status: SUCCESS 59 in 2.63 seconds
+2022-12-11 03:48:00.087821 (Thread-1): 03:48:00  finished collecting timing info
+2022-12-11 03:48:00.088071 (Thread-1): 03:48:00  On rpc.learn_dbt.request: Close
+2022-12-11 03:48:00.579476 (Thread-872): handling poll request
+2022-12-11 03:48:00.579930 (Thread-872): 03:48:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c173d90>]}
+2022-12-11 03:48:00.582034 (Thread-872): sending response (<Response 123477 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:00.828252 (Thread-873): handling status request
+2022-12-11 03:48:00.828707 (Thread-873): 03:48:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c1737c0>]}
+2022-12-11 03:48:00.829173 (Thread-873): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:00.837258 (Thread-874): handling poll request
+2022-12-11 03:48:00.837587 (Thread-874): 03:48:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c173ee0>]}
+2022-12-11 03:48:00.847503 (Thread-874): sending response (<Response 134410 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:01.158287 (Thread-875): handling status request
+2022-12-11 03:48:01.158748 (Thread-875): 03:48:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c173b50>]}
+2022-12-11 03:48:01.159203 (Thread-875): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:01.239153 (Thread-876): handling ps request
+2022-12-11 03:48:01.239555 (Thread-876): 03:48:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c22a670>]}
+2022-12-11 03:48:01.262677 (Thread-876): sending response (<Response 40830 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:02.757453 (Thread-877): handling ps request
+2022-12-11 03:48:02.757873 (Thread-877): 03:48:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c14a310>]}
+2022-12-11 03:48:02.760822 (Thread-877): sending response (<Response 40830 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 03:48:03.348528 (Thread-878): handling status request
+2022-12-11 03:48:03.348952 (Thread-878): 03:48:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c42c9a0>]}
+2022-12-11 03:48:03.349472 (Thread-878): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 05:25:24.241315 (Thread-879): handling status request
+2022-12-11 05:25:24.242509 (Thread-879): 05:25:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c12e760>]}
+2022-12-11 05:25:24.243013 (Thread-879): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-11 05:39:40.275107 (Thread-880): handling status request
+2022-12-11 05:39:40.276263 (Thread-880): 05:39:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '29c98044-6e58-42a0-8503-1b8a173d803e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f858c12e940>]}
+2022-12-11 05:39:40.276747 (Thread-880): sending response (<Response 1598 bytes [200 OK]>) to 10.0.136.229
+2022-12-12 04:11:24.103133 (MainThread): Running with dbt=1.3.1
+2022-12-12 04:11:24.694230 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-12-12 04:11:24.697056 (MainThread): Tracking: tracking
+2022-12-12 04:11:24.697413 (MainThread): 04:11:24  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114fd19850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113be5ca30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113be5ce50>]}
+2022-12-12 04:11:24.699379 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-12-12 04:11:24.699779 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-12-12 04:11:24.704331 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-12-12 04:11:24.847900 (Thread-12): 04:11:24  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-12-12 04:11:24.848135 (Thread-12): 04:11:24  Partial parsing enabled, no changes found, skipping parsing
+2022-12-12 04:11:24.854809 (Thread-12): 04:11:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396f6b20>]}
+2022-12-12 04:11:25.793011 (Thread-13): handling ps request
+2022-12-12 04:11:25.793435 (Thread-13): 04:11:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113971a850>]}
+2022-12-12 04:11:25.794053 (Thread-13): sending response (<Response 100 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:26.143486 (Thread-14): handling status request
+2022-12-12 04:11:26.143914 (Thread-14): 04:11:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113971a640>]}
+2022-12-12 04:11:26.144466 (Thread-14): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:26.184236 (Thread-15): handling status request
+2022-12-12 04:11:26.184552 (Thread-15): 04:11:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113971a520>]}
+2022-12-12 04:11:26.184959 (Thread-15): sending response (<Response 1246 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:26.189362 (Thread-16): handling list request
+2022-12-12 04:11:26.193451 (Thread-17): handling ps request
+2022-12-12 04:11:26.194381 (Thread-16): 04:11:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113971a3d0>]}
+2022-12-12 04:11:26.194675 (Thread-17): 04:11:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396ddaf0>]}
+2022-12-12 04:11:26.198315 (Thread-17): sending response (<Response 370 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:26.234810 (Thread-16): 04:11:26  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396ddf10>]}
+2022-12-12 04:11:26.235350 (Thread-16): 04:11:26  Found 4 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-12-12 04:11:26.235702 (Thread-16): 04:11:26  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396d9c40>]}
+2022-12-12 04:11:26.238382 (Thread-16): sending response (<Response 2668 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:33.953560 (Thread-18): handling ps request
+2022-12-12 04:11:33.955134 (Thread-18): 04:11:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113be6dca0>]}
+2022-12-12 04:11:33.955649 (Thread-18): sending response (<Response 390 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:34.132884 (Thread-19): handling ps request
+2022-12-12 04:11:34.133249 (Thread-19): 04:11:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f113be6d4c0>]}
+2022-12-12 04:11:34.133727 (Thread-19): sending response (<Response 390 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:34.139573 (Thread-20): handling run_sql request
+2022-12-12 04:11:34.139870 (Thread-20): 04:11:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396dda90>]}
+2022-12-12 04:11:36.766181 (Thread-20): sending response (<Response 133 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:36.795631 (MainThread): 04:11:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e79b3a0b-82e9-4b5d-a83a-73e20af4163f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ff5d389a0>]}
+2022-12-12 04:11:36.796156 (MainThread): 04:11:36  Found 4 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-12-12 04:11:36.796804 (Thread-1): 04:11:36  Acquiring new snowflake connection "rpc.learn_dbt.request"
+2022-12-12 04:11:36.796958 (Thread-1): 04:11:36  Began compiling node rpc.learn_dbt.request
+2022-12-12 04:11:36.797057 (Thread-1): 04:11:36  Compiling rpc.learn_dbt.request
+2022-12-12 04:11:36.800695 (Thread-1): 04:11:36  finished collecting timing info
+2022-12-12 04:11:36.800832 (Thread-1): 04:11:36  Began executing node rpc.learn_dbt.request
+2022-12-12 04:11:36.809922 (Thread-1): 04:11:36  Using snowflake connection "rpc.learn_dbt.request"
+2022-12-12 04:11:36.810019 (Thread-1): 04:11:36  On rpc.learn_dbt.request: with account_delta as (
+
+    SELECT trim(VALUE:id,'"') as ID,trim(VALUE:created_at,'"') as CREATED_AT,trim(VALUE:updated_at,'"') as UPDATED_AT,trim(VALUE:created_by,'"') as CREATED_BY,
+    trim(VALUE:updated_by,'"') as UPDATED_BY,trim(VALUE:is_disabled,'"') as IS_DISABLED,trim(VALUE:account_number,'"') as ACCOUNT_NUMBER,trim(VALUE:customer_name,'"') as CUSTOMER_NAME,
+    trim(VALUE:instrument_id,'"') as INSTRUMENT_ID,trim(VALUE:pool_id,'"') as POOL_ID,trim(VALUE:seller_id,'"') as SELLER_ID,trim(VALUE:administrator_id,'"') as ADMINISTRATOR_ID,
+    trim(VALUE:insurance_company_id,'"') as INSURANCE_COMPANY_ID,trim(VALUE:customer_id,'"') as CUSTOMER_ID,trim(VALUE:status,'"') as STATUS,trim(VALUE:status_change_date,'"') as STATUS_CHANGE_DATE,
+    trim(VALUE:calculation_rule_type,'"') as CALCULATION_RULE_TYPE,trim(VALUE:calculation_rule_name,'"') as CALCULATION_RULE_NAME,trim(VALUE:contract_file_name,'"') as CONTRACT_FILE_NAME,
+    trim(VALUE:seller_reserve_code,'"') as SELLER_RESERVE_CODE,trim(VALUE:admin_reserve_code,'"') as ADMIN_RESERVE_CODE,trim(VALUE:product,'"') as PRODUCT,trim(VALUE:first_due_date,'"') as FIRST_DUE_DATE,trim(VALUE:next_due_date,'"') as NEXT_DUE_DATE,trim(VALUE:oldest_due_date,'"') as OLDEST_DUE_DATE,trim(VALUE:current_due_date,'"') as CURRENT_DUE_DATE,trim(VALUE:current_schedule,'"') as CURRENT_SCHEDULE,trim(VALUE:maturity_date,'"') as MATURITY_DATE,trim(VALUE:intent_date,'"') as INTENT_DATE,trim(VALUE:anniversary_date,'"') as ANNIVERSARY_DATE,trim(VALUE:projected_cancellation_date,'"') as PROJECTED_CANCELLATION_DATE,trim(VALUE:pool_assigned_date,'"') as POOL_ASSIGNED_DATE,trim(VALUE:cancellation_date,'"') as CANCELLATION_DATE,trim(VALUE:cancellation_reason,'"') as CANCELLATION_REASON,trim(VALUE:reinstatement_date,'"') as REINSTATEMENT_DATE,trim(VALUE:cancellation_requested_user,'"') as CANCELLATION_REQUESTED_USER,trim(VALUE:ingested_date,'"') as INGESTED_DATE,trim(VALUE:payment_frequency,'"') as PAYMENT_FREQUENCY,trim(VALUE:policy_term,'"') as POLICY_TERM,trim(VALUE:policy_mileage,'"') as POLICY_MILEAGE,trim(VALUE:policy_effective_date,'"') as POLICY_EFFECTIVE_DATE,trim(VALUE:policy_program,'"') as POLICY_PROGRAM,trim(VALUE:policy_number,'"') as POLICY_NUMBER,trim(VALUE:vehicle_vin,'"') as VEHICLE_VIN,trim(VALUE:vehicle_make,'"') as VEHICLE_MAKE,trim(VALUE:vehicle_model,'"') as VEHICLE_MODEL,trim(VALUE:vehicle_year,'"') as VEHICLE_YEAR,trim(VALUE:vehicle_trim,'"') as VEHICLE_TRIM,trim(VALUE:vehicle_mileage,'"') as VEHICLE_MILEAGE,trim(VALUE:endorsement_count,'"') as ENDORSEMENT_COUNT,trim(VALUE:endorsement_amount,'"') as ENDORSEMENT_AMOUNT,trim(VALUE:funded_endorsement_amount,'"') as FUNDED_ENDORSEMENT_AMOUNT,trim(VALUE:term_changes_count,'"') as TERM_CHANGES_COUNT,trim(VALUE:seller_cost_adjustment_count,'"') as SELLER_COST_ADJUSTMENT_COUNT,trim(VALUE:reinstatement_count,'"') as REINSTATEMENT_COUNT,trim(VALUE:due_date_lifetime_change_count,'"') as DUE_DATE_LIFETIME_CHANGE_COUNT,trim(VALUE:due_date_yearly_change_count,'"') as DUE_DATE_YEARLY_CHANGE_COUNT,trim(VALUE:extensions_lifetime_count,'"') as EXTENSIONS_LIFETIME_COUNT,trim(VALUE:extensions_yearly_count,'"') as EXTENSIONS_YEARLY_COUNT,trim(VALUE:extensions_lifetime_terms_updated,'"') as EXTENSIONS_LIFETIME_TERMS_UPDATED,trim(VALUE:extensions_yearly_terms_updated,'"') as EXTENSIONS_YEARLY_TERMS_UPDATED,trim(VALUE:total_retail_cost,'"') as TOTAL_RETAIL_COST,trim(VALUE:down_payment_amount,'"') as DOWN_PAYMENT_AMOUNT,trim(VALUE:installments,'"') as INSTALLMENTS,trim(VALUE:installment_amount,'"') as INSTALLMENT_AMOUNT,trim(VALUE:financed_amount,'"') as FINANCED_AMOUNT,trim(VALUE:accounts_discount_amount,'"') as ACCOUNTS_DISCOUNT_AMOUNT,trim(VALUE:seller_cost,'"') as SELLER_COST,trim(VALUE:dealer_profit,'"') as DEALER_PROFIT,trim(VALUE:seller_advance_amount,'"') as SELLER_ADVANCE_AMOUNT,trim(VALUE:seller_reserve_amount,'"') as SELLER_RESERVE_AMOUNT,trim(VALUE:admin_advance_amount,'"') as ADMIN_ADVANCE_AMOUNT,trim(VALUE:admin_reserve_amount,'"') as ADMIN_RESERVE_AMOUNT,trim(VALUE:annual_percentage_rate,'"') as ANNUAL_PERCENTAGE_RATE,trim(VALUE:service_fee_amount,'"') as SERVICE_FEE_AMOUNT,trim(VALUE:service_interest_percentage,'"') as SERVICE_INTEREST_PERCENTAGE,trim(VALUE:renewal_fee,'"') as RENEWAL_FEE,trim(VALUE:renewal_payhold,'"') as RENEWAL_PAYHOLD,trim(VALUE:finance_charge,'"') as FINANCE_CHARGE,trim(VALUE:mtm_advanced_installments,'"') as MTM_ADVANCED_INSTALLMENTS,trim(VALUE:is_shortage_account,'"') as IS_SHORTAGE_ACCOUNT,trim(VALUE:payments_made,'"') as PAYMENTS_MADE,trim(VALUE:paid_amount,'"') as PAID_AMOUNT,trim(VALUE:late_fee_paid_amount,'"') as LATE_FEE_PAID_AMOUNT,trim(VALUE:principal_balance_amount,'"') as PRINCIPAL_BALANCE_AMOUNT,trim(VALUE:last_payment_amount,'"') as LAST_PAYMENT_AMOUNT,trim(VALUE:payoff_amount,'"') as PAYOFF_AMOUNT,trim(VALUE:last_payment_date,'"') as LAST_PAYMENT_DATE,trim(VALUE:last_payment_description,'"') as LAST_PAYMENT_DESCRIPTION,trim(VALUE:installment_due_amount,'"') as INSTALLMENT_DUE_AMOUNT,trim(VALUE:delinquency_due_amount,'"') as DELINQUENCY_DUE_AMOUNT,trim(VALUE:delinquency_lifetime_count,'"') as DELINQUENCY_LIFETIME_COUNT,trim(VALUE:delinquency_yearly_count,'"') as DELINQUENCY_YEARLY_COUNT,trim(VALUE:nsf_assessed_count,'"') as NSF_ASSESSED_COUNT,trim(VALUE:nsf_waived_count,'"') as NSF_WAIVED_COUNT,trim(VALUE:nsf_due_amount,'"') as NSF_DUE_AMOUNT,trim(VALUE:late_fee_assessed_count,'"') as LATE_FEE_ASSESSED_COUNT,trim(VALUE:late_fee_waived_count,'"') as LATE_FEE_WAIVED_COUNT,trim(VALUE:late_fee_due_amount,'"') as LATE_FEE_DUE_AMOUNT,trim(VALUE:is_return_premium_paid,'"') as IS_RETURN_PREMIUM_PAID,trim(VALUE:is_nc_payment_should_hit_admin,'"') as IS_NC_PAYMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_admin,'"') as IS_ENDORSEMENT_SHOULD_HIT_ADMIN,trim(VALUE:is_endorsement_should_hit_advance,'"') as IS_ENDORSEMENT_SHOULD_HIT_ADVANCE,trim(VALUE:is_terms_change_enabled,'"') as IS_TERMS_CHANGE_ENABLED,trim(VALUE:is_endorsements_enabled,'"') as IS_ENDORSEMENTS_ENABLED,trim(VALUE:is_seller_cost_adjustment_enabled,'"') as IS_SELLER_COST_ADJUSTMENT_ENABLED,
+    trim(VALUE:is_auto_pay_suspended,'"') as IS_AUTO_PAY_SUSPENDED,trim(VALUE:initial_web_password,'"') as INITIAL_WEB_PASSWORD,trim(VALUE:customer_state,'"') as CUSTOMER_STATE,
+    trim(VALUE:cancellation_hold_days,'"') as CANCELLATION_HOLD_DAYS,trim(VALUE:first_billed_date,'"') as FIRST_BILLED_DATE,trim(VALUE:last_billed_date,'"') as LAST_BILLED_DATE,
+    trim(VALUE:late_charge_grace_days,'"') as LATE_CHARGE_GRACE_DAYS,trim(VALUE:delinquency_grace_days,'"') as DELINQUENCY_GRACE_DAYS,
+    trim(VALUE:billing_statement_days,'"') as BILLING_STATEMENT_DAYS,trim(VALUE:maximum_due_date_change_days,'"') as MAXIMUM_DUE_DATE_CHANGE_DAYS,
+    trim(VALUE:maximum_due_date_changes_per_year,'"') as MAXIMUM_DUE_DATE_CHANGES_PER_YEAR, trim(VALUE: maximum_due_date_changes_per_life,'"') as MAXIMUM_DUE_DATE_CHANGES_PER_LIFE,
+    trim(VALUE:maximum_extensions_per_year, '"') as MAXIMUM_EXTENSIONS_PER_YEAR,
+    trim(VALUE:maximum_extensions_per_life,'"') as MAXIMUM_EXTENSIONS_PER_LIFE,trim(VALUE:late_fee_amount,'"') as LATE_FEE_AMOUNT,trim(VALUE:late_fee_percentage,'"') as LATE_FEE_PERCENTAGE,
+    trim(VALUE:late_fee_calculation,'"') as LATE_FEE_CALCULATION,trim(VALUE:nsf_fee_amount,'"') as NSF_FEE_AMOUNT,trim(VALUE:IS_PRISTINE,'"') as IS_PRISTINE
+    FROM EDW.EXTERNAL.ACCOUNT
+)
+
+select *
+from account_delta
+limit 500
+/* limit added automatically by dbt cloud */
+2022-12-12 04:11:36.810096 (Thread-1): 04:11:36  Opening a new connection, currently in state init
+2022-12-12 04:11:37.035204 (Thread-21): handling ps request
+2022-12-12 04:11:37.035660 (Thread-21): 04:11:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fd4f0>]}
+2022-12-12 04:11:37.036486 (Thread-21): sending response (<Response 853 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:37.045270 (Thread-22): handling ps request
+2022-12-12 04:11:37.045544 (Thread-22): 04:11:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fd8b0>]}
+2022-12-12 04:11:37.045953 (Thread-22): sending response (<Response 852 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:37.318198 (Thread-23): handling status request
+2022-12-12 04:11:37.318599 (Thread-23): 04:11:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fd850>]}
+2022-12-12 04:11:37.319069 (Thread-23): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:37.363829 (Thread-24): handling poll request
+2022-12-12 04:11:37.364193 (Thread-24): 04:11:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fdb50>]}
+2022-12-12 04:11:37.364880 (Thread-24): sending response (<Response 11293 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:37.392649 (Thread-25): handling poll request
+2022-12-12 04:11:37.393069 (Thread-25): 04:11:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fd520>]}
+2022-12-12 04:11:37.393669 (Thread-25): sending response (<Response 11293 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:37.645987 (Thread-26): handling status request
+2022-12-12 04:11:37.646438 (Thread-26): 04:11:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fda00>]}
+2022-12-12 04:11:37.646886 (Thread-26): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:38.600894 (Thread-27): handling poll request
+2022-12-12 04:11:38.601311 (Thread-27): 04:11:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fdeb0>]}
+2022-12-12 04:11:38.601794 (Thread-27): sending response (<Response 372 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:39.282633 (Thread-28): handling ps request
+2022-12-12 04:11:39.283079 (Thread-28): 04:11:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fdf70>]}
+2022-12-12 04:11:39.283603 (Thread-28): sending response (<Response 853 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:39.530381 (Thread-29): handling status request
+2022-12-12 04:11:39.530775 (Thread-29): 04:11:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1139701310>]}
+2022-12-12 04:11:39.531228 (Thread-29): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:39.652802 (Thread-30): handling poll request
+2022-12-12 04:11:39.653126 (Thread-30): 04:11:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1139701220>]}
+2022-12-12 04:11:39.653677 (Thread-30): sending response (<Response 11293 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:39.878479 (Thread-31): handling poll request
+2022-12-12 04:11:39.878871 (Thread-31): 04:11:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11397014c0>]}
+2022-12-12 04:11:39.879337 (Thread-31): sending response (<Response 372 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:39.931898 (Thread-32): handling status request
+2022-12-12 04:11:39.932223 (Thread-32): 04:11:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11397015e0>]}
+2022-12-12 04:11:39.932593 (Thread-32): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:40.628719 (Thread-1): 04:11:40  SQL status: SUCCESS 59 in 3.82 seconds
+2022-12-12 04:11:40.648297 (Thread-1): 04:11:40  finished collecting timing info
+2022-12-12 04:11:40.648528 (Thread-1): 04:11:40  On rpc.learn_dbt.request: Close
+2022-12-12 04:11:41.118963 (Thread-33): handling poll request
+2022-12-12 04:11:41.119383 (Thread-33): 04:11:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1139701bb0>]}
+2022-12-12 04:11:41.121555 (Thread-33): sending response (<Response 123474 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:41.538456 (Thread-34): handling ps request
+2022-12-12 04:11:41.538925 (Thread-34): 04:11:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11396fd9d0>]}
+2022-12-12 04:11:41.539457 (Thread-34): sending response (<Response 878 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:41.769992 (Thread-35): handling status request
+2022-12-12 04:11:41.770404 (Thread-35): 04:11:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1139701910>]}
+2022-12-12 04:11:41.770908 (Thread-35): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:41.977941 (Thread-36): handling poll request
+2022-12-12 04:11:41.978347 (Thread-36): 04:11:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1139701e80>]}
+2022-12-12 04:11:41.980416 (Thread-36): sending response (<Response 134397 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:42.259410 (Thread-37): handling status request
+2022-12-12 04:11:42.259824 (Thread-37): 04:11:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1136ea50d0>]}
+2022-12-12 04:11:42.260331 (Thread-37): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:11:42.314299 (Thread-38): handling ps request
+2022-12-12 04:11:42.314622 (Thread-38): 04:11:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1136ea5250>]}
+2022-12-12 04:11:42.335333 (Thread-38): sending response (<Response 878 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 04:26:33.059534 (Thread-39): handling status request
+2022-12-12 04:26:33.061102 (Thread-39): 04:26:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1139701ac0>]}
+2022-12-12 04:26:33.061586 (Thread-39): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 05:21:02.785106 (Thread-40): handling status request
+2022-12-12 05:21:02.786794 (Thread-40): 05:21:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1136ea5e80>]}
+2022-12-12 05:21:02.787273 (Thread-40): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-12 06:36:20.936922 (Thread-41): handling status request
+2022-12-12 06:36:20.938601 (Thread-41): 06:36:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1e28901c-d26f-400a-984d-080993056f9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1136ea5370>]}
+2022-12-12 06:36:20.939083 (Thread-41): sending response (<Response 1263 bytes [200 OK]>) to 10.0.131.255
+2022-12-14 04:13:02.696651 (MainThread): Running with dbt=1.3.1
+2022-12-14 04:13:03.313553 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-12-14 04:13:03.316604 (MainThread): Tracking: tracking
+2022-12-14 04:13:03.318722 (MainThread): 04:13:03  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47bec70af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47d79d5730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47bec4d3a0>]}
+2022-12-14 04:13:03.319158 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-12-14 04:13:03.323803 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-12-14 04:13:03.324049 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-12-14 04:13:03.487931 (Thread-12): 04:13:03  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-12-14 04:13:03.488184 (Thread-12): 04:13:03  Partial parsing enabled, no changes found, skipping parsing
+2022-12-14 04:13:03.495167 (Thread-12): 04:13:03  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb1bc10>]}
+2022-12-14 04:13:04.870707 (Thread-13): handling ps request
+2022-12-14 04:13:04.871196 (Thread-13): 04:13:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47bec4d100>]}
+2022-12-14 04:13:04.871772 (Thread-13): sending response (<Response 100 bytes [200 OK]>) to 10.0.38.8
+2022-12-14 04:13:05.294018 (Thread-14): handling status request
+2022-12-14 04:13:05.294442 (Thread-14): 04:13:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb84460>]}
+2022-12-14 04:13:05.294976 (Thread-14): sending response (<Response 1263 bytes [200 OK]>) to 10.0.38.8
+2022-12-14 04:13:05.345509 (Thread-15): handling status request
+2022-12-14 04:13:05.345852 (Thread-15): 04:13:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb847f0>]}
+2022-12-14 04:13:05.346331 (Thread-15): sending response (<Response 1246 bytes [200 OK]>) to 10.0.38.8
+2022-12-14 04:13:05.349787 (Thread-16): handling ps request
+2022-12-14 04:13:05.350206 (Thread-16): 04:13:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb843d0>]}
+2022-12-14 04:13:05.350622 (Thread-16): sending response (<Response 100 bytes [200 OK]>) to 10.0.38.8
+2022-12-14 04:13:05.351773 (Thread-17): handling list request
+2022-12-14 04:13:05.352067 (Thread-17): 04:13:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb84310>]}
+2022-12-14 04:13:05.392039 (Thread-17): 04:13:05  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb1bac0>]}
+2022-12-14 04:13:05.392699 (Thread-17): 04:13:05  Found 4 models, 0 tests, 0 snapshots, 8 analyses, 304 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-12-14 04:13:05.393060 (Thread-17): 04:13:05  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47ac234c10>]}
+2022-12-14 04:13:05.395778 (Thread-17): sending response (<Response 2659 bytes [200 OK]>) to 10.0.38.8
+2022-12-14 04:15:46.963066 (Thread-18): handling status request
+2022-12-14 04:15:46.964716 (Thread-18): 04:15:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb84a90>]}
+2022-12-14 04:15:46.965205 (Thread-18): sending response (<Response 1263 bytes [200 OK]>) to 10.0.38.8
+2022-12-14 04:44:37.709731 (Thread-19): handling status request
+2022-12-14 04:44:37.711405 (Thread-19): 04:44:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '62e339ba-4fe8-4a79-af68-1c46a0839b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47beb20ee0>]}
+2022-12-14 04:44:37.711888 (Thread-19): sending response (<Response 1263 bytes [200 OK]>) to 10.0.38.8
