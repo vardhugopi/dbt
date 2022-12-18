@@ -1,4 +1,4 @@
-{{ config(materialized='ephemeral') }} 
+--{{ config(materialized='ephemeral') }} 
 
 with account_delta as (
 

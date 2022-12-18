@@ -36,8 +36,8 @@ models:
     # Config indicated by + and applies to all files under models/example/
  
     staging:
-      +database: TEST_EDW
-      +schema: EXTERNAL
+      +database: TEMP
+      +schema: STAGING
       +materialized: table
     marts:
       +transient: false

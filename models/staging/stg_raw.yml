@@ -7,9 +7,13 @@ sources:
     tables:
       - name: ACCOUNT_SUBSET
       - name: ACCOUNT
+      - name: ACCOUNT_POOL
+      - name: ACCOUNT_IVESTOR
   - name: lookup
     database: TEST_EDW
     schema: ANALYTICS
     tables:
       - name: SUBSET_DIM
       - name: ACCOUNT_DIM
+      - name: POOL_DIM
+      - name: INVESTOR

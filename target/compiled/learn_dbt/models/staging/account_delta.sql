@@ -1,4 +1,4 @@
- 
+-- 
 
 with account_delta as (
 
