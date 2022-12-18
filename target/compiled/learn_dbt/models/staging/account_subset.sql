@@ -2,7 +2,7 @@
 
 with subset_data as (
 
-    SELECT * from EDW.ANALYTICS.SUBSET_DIM
+    SELECT * from TEST_EDW.ANALYTICS.SUBSET_DIM
 )
 
 select *

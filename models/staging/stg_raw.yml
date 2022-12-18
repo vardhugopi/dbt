@@ -2,13 +2,13 @@ version: 2
 
 sources:
   - name: raw
-    database: EDW
+    database: TEST_EDW
     schema: EXTERNAL
     tables:
       - name: ACCOUNT_SUBSET
       - name: ACCOUNT
   - name: lookup
-    database: EDW
+    database: TEST_EDW
     schema: ANALYTICS
     tables:
       - name: SUBSET_DIM
