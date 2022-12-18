@@ -1,6 +1,6 @@
 with investor_data as (
 
-    SELECT * from TEST_EDW.ANALYTICS.POOL_DIM
+    SELECT * from TEST_EDW.ANALYTICS.INVESTOR
 )
 
 select *

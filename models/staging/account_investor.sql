@@ -1,7 +1,7 @@
 
 with investor_data as (
 
-    SELECT * from {{ source('lookup','POOL_DIM')}}
+    SELECT * from {{ source('lookup','INVESTOR')}}
 )
 
 select *
