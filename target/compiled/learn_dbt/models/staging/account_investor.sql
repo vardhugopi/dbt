@@ -1,7 +1,7 @@
-with pool_data as (
+with investor_data as (
 
     SELECT * from TEST_EDW.ANALYTICS.POOL_DIM
 )
 
 select *
-from pool_data
+from investor_data

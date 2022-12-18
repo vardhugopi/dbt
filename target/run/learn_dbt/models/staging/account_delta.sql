@@ -1,4 +1,9 @@
-with account_delta as (
+
+  
+    
+
+        create or replace transient table TEMP.STAGING.account_delta  as
+        (with account_delta as (
 
     SELECT trim(VALUE:id,'"') as ID,trim(VALUE:created_at,'"') as CREATED_AT,trim(VALUE:updated_at,'"') as UPDATED_AT,trim(VALUE:created_by,'"') as CREATED_BY,
     trim(VALUE:updated_by,'"') as UPDATED_BY,trim(VALUE:is_disabled,'"') as IS_DISABLED,trim(VALUE:account_number,'"') as ACCOUNT_NUMBER,trim(VALUE:customer_name,'"') as CUSTOMER_NAME,
@@ -19,3 +24,6 @@ with account_delta as (
 
 select *
 from account_delta
+        );
+      
+  

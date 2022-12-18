@@ -1,10 +1,10 @@
 
-with pool_data as (
+with investor_data as (
 
     SELECT * from {{ source('lookup','POOL_DIM')}}
 )
 
 select *
-from pool_data
+from investor_data
 
 

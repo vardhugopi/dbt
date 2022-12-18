@@ -1,4 +1,9 @@
-with  __dbt__cte__account_subset as (
+
+  
+    
+
+        create or replace  table TEMP.ANALYTICS.subset_dim  as
+        (with  __dbt__cte__account_subset as (
 -- 
 
 with subset_data as (
@@ -48,3 +53,6 @@ final as    (
     )
 
 select * from final
+        );
+      
+  

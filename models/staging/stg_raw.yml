@@ -8,7 +8,7 @@ sources:
       - name: ACCOUNT_SUBSET
       - name: ACCOUNT
       - name: ACCOUNT_POOL
-      - name: ACCOUNT_IVESTOR
+      - name: ACCOUNT_INVESTOR
   - name: lookup
     database: TEST_EDW
     schema: ANALYTICS
